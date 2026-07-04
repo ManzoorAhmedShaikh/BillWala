@@ -5,7 +5,6 @@ from .status_codes import *
 def get_hesco_bill(params : dict):
     session = cffi_requests.Session(impersonate="chrome")
     try:
-        print(f"Checking bill for: {params}")
         session.get("https://bill.pitc.com.pk/hescobill/general", timeout=25)
         response = session.post(
             "https://bill.pitc.com.pk/hescobill/general",

@@ -6,6 +6,11 @@ def get_hesco_bill(params : dict):
     session = cffi_requests.Session(impersonate="chrome")
     try:
         print(f"Checking bill for: {params}")
+        session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept-Language": "en-PK,en;q=0.9",
+        "X-Forwarded-For": "111.68.96.1"
+        })
         session.get("https://bill.pitc.com.pk/hescobill/general", timeout=25)
         print("Session retrieved")
         response = session.post(

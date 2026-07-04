@@ -4,7 +4,7 @@ BillWala simplifies the HESCO electricity bill and helps both technical and non-
 
 ![BillWala App](static/App.png)
 
-Production link: [BillWala App](https://your-production-link.com)
+Production link: [BillWala App](https://billwala.up.railway.app/)
 
 ## Features
 - Simplifies complex HESCO bill formats into easy-to-understand summaries

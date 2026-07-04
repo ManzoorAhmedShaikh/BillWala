@@ -4,8 +4,6 @@ BillWala simplifies the HESCO electricity bill and helps both technical and non-
 
 ![BillWala App](static/App.png)
 
-Production link: [BillWala App](https://billwala.up.railway.app/)
-
 ## Features
 - Simplifies complex HESCO bill formats into easy-to-understand summaries
 - Provides clear breakdown of charges, taxes, and fees
@@ -39,7 +37,6 @@ Production link: [BillWala App](https://billwala.up.railway.app/)
 ## Requirements
 - Python 3.8+
 - Dependencies listed in `requirements.txt`
-- Internet connection for API services
 
 ## Contributing
 If you find **BillWala** helpful, please consider giving it a star! Contributions are welcome — feel free to submit pull requests or open issues to improve the project.

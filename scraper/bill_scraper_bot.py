@@ -7,6 +7,7 @@ def get_hesco_bill(params : dict):
     try:
 	print(f"Checking bill for: {params}")
         session.get("https://bill.pitc.com.pk/hescobill/general", timeout=25)
+	print("Session retrieved")
         response = session.post(
             "https://bill.pitc.com.pk/hescobill/general",
             params=params,

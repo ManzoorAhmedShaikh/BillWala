@@ -4,6 +4,7 @@ BillWala simplifies the HESCO electricity bill and helps both technical and non-
 
 ![BillWala App](static/App.png)
 
+**Demo working video:** [BillWala](https://www.linkedin.com/posts/manzoorahmedshaikh_ai-langchain-python-ugcPost-7482319167782842368-lu8p/)
 ## Features
 - Simplifies complex HESCO bill formats into easy-to-understand summaries
 - Provides clear breakdown of charges, taxes, and fees
